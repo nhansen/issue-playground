@@ -1,12 +1,3 @@
----
-name: assemblyissue
-about: Issue with the HG002 diploid assembly
-title: 'Assembly Issue'
-labels: ''
-assignees: ''
-
----
-
 name: Assembly Issue
 description: Create a new assembly issue to track
 title: "[Bug]: "
