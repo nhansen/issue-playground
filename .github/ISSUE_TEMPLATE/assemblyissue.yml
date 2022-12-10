@@ -19,8 +19,8 @@ body:
       label: Assembly Version
       description: Which assembly release are these coordinates for?
       options:
-        - v0.6
         - v0.7 (Default)
+        - v0.6
     validations:
       required: true
   - type: dropdown
