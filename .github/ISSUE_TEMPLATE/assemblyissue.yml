@@ -1,7 +1,7 @@
 name: Assembly Issue
 description: Create a new assembly issue to track
 title: "[Issue]: "
-labels: ["triage"]
+labels: ["assembly"]
 assignees:
   - nhansen
 body:
