@@ -16,10 +16,22 @@ body:
   attributes:
     label: Have you confirmed that this issue hasn't already been reported?
     options:
-      - label: confirmed (required)
+      - label: I have confirmed in the UCSC browser hub that this is a new issue (required)
         required: true
 - type: input
   id: Region
   attributes:
     label: "Issue location in assembly"
+- type: textarea
+  id: issuedescription
+  attributes:
+    label: Description of the issue
+    description: "Please provide as much detail as possible. What evidence is there that the assembly is wrong here?"
+    value: |
+      1.
+      2.
+      3.
+      ...
+  validations:
+    required: true
 ---
