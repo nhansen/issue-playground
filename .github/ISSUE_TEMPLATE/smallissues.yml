@@ -11,6 +11,13 @@ body:
   attributes:
     value: |
       Thanks for taking the time to share your observations about the HG002 v1.0 Q100 assembly. Before submitting an issue, please check to be sure it isn't already in our VCF file of issues that are already scheduled to be applied, or our VCF of submitted issues to be evaluated. Both of these VCFs are displayed as tracks in our UCSC browser assembly hub here. 
+- type: checkboxes
+  id: checkedexisting
+  attributes:
+    label: Have you confirmed that this issue hasn't already been reported?
+    options:
+      - label: confirmed (required)
+        required: true
 - type: input
   id: Region
   attributes:
