@@ -1,5 +1,6 @@
 ---
 name: Small error report
+description: 
 about: Use this issue template to describe errors spanning just a small number of bases
   in the v1.0 assembly.
 title: Localized issue in the hg002v1.0 assembly
